@@ -32,6 +32,7 @@ public class My2D {
                 }
             }
         }
+         
     }
 
     public void deleteElement(int[][] arr, int rowToBeDeleted, int colToBeDeleted) {
@@ -41,6 +42,17 @@ public class My2D {
                 while (col != colToBeDeleted && row != rowToBeDeleted) {
                     arr[row][col] = newArr[row][col];
                 }
+            }
+        }
+    }
+    
+    
+    
+    
+    public void matrixTranspose(int arr [][], int newArr [] [], int n ){           // n is the order of the matrix
+        for(int i = 0; i<n; i++){
+            for(int j =0; j<n; j++){
+                arr[i][j] = newArr[j][i];    // switching rows and columns
             }
         }
     }
