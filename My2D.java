@@ -22,44 +22,43 @@ public class My2D {
         }
     }
 
-    public void matrixDsiplay(int[][] arr) {
+    public void matrixDsiplay(My2D arr) {
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr.length; col++) {
-                System.out.println(arr[row][col]);
+                System.out.println( arr.my2DArr[row][col]);
             }
 
         }
     }
 
-    public void deleteRow(int rowToBeDeleted, int[][] arr) {
-        int[][] newArr = new int[0][];
+    public void deleteRow(int rowToBeDeleted,My2D arr, My2D newArr ) {
+
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr.length; col++) {
                 while (row != rowToBeDeleted) {
-                    arr[row][col] = newArr[row][col];
+                    arr.my2DArr[row][col] = newArr.my2DArr[row][col];
                 }
             }
         }
     }
 
-    public void deleteColumn(int colToBeDeleted, int[][] arr) {
-        int[][] newArr = new int[0][];
+    public void deleteColumn(int colToBeDeleted, My2D arr,  My2D newArr) {
+
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr.length; col++) {
                 while (col != colToBeDeleted) {
-                    arr[row][col] = newArr[row][col];
+                    arr.my2DArr [row][col] = newArr.my2DArr[row][col];
                 }
             }
         }
          
     }
 
-    public void deleteElement(int[][] arr, int rowToBeDeleted, int colToBeDeleted) {
-        int[][] newArr = new int[0][];
+    public void deleteElement( My2D arr, My2D newArr , int rowToBeDeleted, int colToBeDeleted) {
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr.length; col++) {
                 while (col != colToBeDeleted && row != rowToBeDeleted) {
-                    arr[row][col] = newArr[row][col];
+                    arr.my2DArr[row][col] = newArr.my2DArr[row][col];
                 }
             }
         }
@@ -68,10 +67,10 @@ public class My2D {
     
     
     
-    public void matrixTranspose(int arr [][], int newArr [] [], int n ){           // n is the order of the matrix
+    public void matrixTranspose( My2D arr, My2D newArr , int n ){           // n is the order of the matrix
         for(int i = 0; i<n; i++){
             for(int j =0; j<n; j++){
-                arr[i][j] = newArr[j][i];    // switching rows and columns
+                arr.my2DArr [i][j] = newArr.my2DArr[j][i];    // switching rows and columns
             }
         }
     }
