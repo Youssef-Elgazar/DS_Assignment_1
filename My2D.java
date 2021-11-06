@@ -23,16 +23,16 @@ public class My2D {
     }
 
 
-    public void matrixDsiplay(My2D arr) {
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr.length; col++) {
-                System.out.println( arr.my2DArr[row][col]);
+    public static void matrixDisplay(My2D arr) {
+        for (int row = 0; row < arr.my2DArr.length; row++) {
+            for (int col = 0; col < arr.my2DArr.length; col++) {
+                System.out.print( arr.my2DArr[row][col] + " ");
             }
-
+            System.out.println();
         }
     }
 
-    public void deleteRow(int rowToBeDeleted,My2D arr, My2D newArr ) {
+    public void deleteRow(int rowToBeDeleted, My2D arr, My2D newArr ) {
 
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr.length; col++) {
@@ -79,5 +79,6 @@ public class My2D {
     public static void main(String[] args) {
         My2D test = new My2D(2,2);
         populate(test);
+        matrixDisplay(test);
     }
 }
