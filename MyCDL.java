@@ -1,7 +1,22 @@
+/*
+    Tasks:
+        Mohammed Soliman (20100245):
+            Construction [X]
+            Insert [X]
+            Compare [X]
+            Delete [X]
+        Youssef Ali Elsayed Ahmed (20100251):
+            Populate data [X]
+            Append [X]
+            Search [X]
+            Display [X]
+ */
 package com.company;
+import java.util.*;
 
 public class MyCDL {
     static Node start;
+    static Node last = start.prev;
 
     static class Node {
         int data;
@@ -40,7 +55,53 @@ public class MyCDL {
         last.next = newNode;
     }
 
+    public void populateData(){
+        Scanner console = new Scanner(System.in);
+        Node currNode = start;
+        int counter = 0;
+        while(currNode.next != start) {
+            System.out.println("Enter data of Node " + counter + " : (0 indexed)");
+            currNode.data = console.nextInt();
+            currNode = currNode.next;
+            counter++;
+        }
 
+        System.out.println("Enter data of last Node " + counter + " : (0 indexed)");
+        currNode.data = console.nextInt();
+    }
+
+    public void append(MyCDL otherCDL){
+        last.next = otherCDL.start;
+        otherCDL.start.prev = last.next;
+        start.prev = otherCDL.last;
+        otherCDL.last.next = start;
+    }
+
+    public int search(int queryValue){
+        Node currNode = start;
+        if(last.data == queryValue){
+            return 1;
+        } else {
+            while(currNode.next != start) {
+                if(currNode.data == queryValue){
+                    return 1;
+                } else if (currNode.data != queryValue && currNode.next == start) {
+                    return 0;
+                } else {
+                    currNode = currNode.next;
+                }
+            }
+        }
+        return queryValue;
+    }
+
+    public void display() {
+        Node currNode = start;
+        while(currNode.next != start) {
+            System.out.println(currNode.data);
+        }
+        System.out.println(last.data);
+    }
     public void compare(MyCDL cdl, MyCDL cdl2){
         if (cdl.equals(cdl2)){
             System.out.println("1");

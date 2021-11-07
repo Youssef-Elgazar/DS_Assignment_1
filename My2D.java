@@ -22,11 +22,19 @@ public class My2D {
         }
     }
 
+<<<<<<< Updated upstream
 
     public static void matrixDisplay(My2D arr) {
         for (int row = 0; row < arr.my2DArr.length; row++) {
             for (int col = 0; col < arr.my2DArr.length; col++) {
                 System.out.print( arr.my2DArr[row][col] + " ");
+=======
+ِ
+    public void matrixDsiplay(My2D arr) {
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr.length; col++) {
+                System.out.println( arr.my2DArr[row][col]);
+>>>>>>> Stashed changes
             }
             System.out.println();
         }
@@ -88,5 +96,9 @@ public class My2D {
         }
     }
 
+<<<<<<< Updated upstream
 
 
+=======
+}
+>>>>>>> Stashed changes
