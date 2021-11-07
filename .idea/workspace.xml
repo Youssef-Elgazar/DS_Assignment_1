@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DS_Assignment_1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -26,10 +29,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager">
-    <configuration name="My2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="DS_Assignment_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My2D" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.My2D" />
       <module name="DS_Assignment_1" />
       <extension name="coverage">
@@ -44,11 +63,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.My2D" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,5 +80,69 @@
       <updated>1636134754824</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1636200101263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1636200101263" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1636199556154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1636199556154" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636200267896">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1636200267896" />
+    <state width="1493" height="374" key="GridCell.Tab.0.bottom" timestamp="1636297079402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636297079402" />
+    <state width="1493" height="374" key="GridCell.Tab.0.center" timestamp="1636297079402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="374" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636297079402" />
+    <state width="1493" height="374" key="GridCell.Tab.0.left" timestamp="1636297079401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="374" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636297079401" />
+    <state width="1493" height="374" key="GridCell.Tab.0.right" timestamp="1636297079402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="374" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636297079402" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1636200251867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636200251867" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1636200251866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636200251866" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1636200251866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636200251866" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1636200251867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636200251867" />
+    <state x="430" y="223" width="846" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1636200008338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="223" width="846" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1636200008338" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

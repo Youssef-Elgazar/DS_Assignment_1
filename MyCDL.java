@@ -21,7 +21,7 @@ public class MyCDL {
         // if list is not empty
 
         // find last node
-        Node last = (start).prev;
+        Node last = start.prev;
 
         // create new node
         Node newNode = new Node();

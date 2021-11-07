@@ -32,53 +32,61 @@ public class My2D {
         }
     }
 
-    public void deleteRow(int rowToBeDeleted, My2D arr, My2D newArr ) {
+    public static void deleteRow(int rowToBeDeleted, My2D arr) {
+        for (int row = 0; row < arr.length/2; row++) {
+            for (int col = 0; col < arr.length/2; col++) {
+                if (rowToBeDeleted == row) {
+                    arr.my2DArr[row][col] = 0;
+                }
+                System.out.println();
+                }
 
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr.length; col++) {
-                while (row != rowToBeDeleted) {
-                    arr.my2DArr[row][col] = newArr.my2DArr[row][col];
+
+            }
+
+        }
+
+
+
+    public static void deleteColumn(int colToBeDeleted, My2D arr) {
+
+        for (int row = 0; row < arr.length / 2; row++) {
+            for (int col = 0; col < arr.length / 2; col++) {
+                if (colToBeDeleted == col) {
+                    arr.my2DArr[row][col] = 0;
+                }
+                System.out.println();
+            }
+
+
+        }
+
+    }
+
+
+    public static void deleteElement( My2D arr, int rowToBeDeleted, int colToBeDeleted) {
+        for (int row = 0; row < arr.length/2; row++) {
+            for (int col = 0; col < arr.length/2; col++) {
+                if (colToBeDeleted == col && rowToBeDeleted == row)  {
+                    arr.my2DArr[row][col] = 0;
                 }
             }
         }
     }
+    
+    
+    
+    
+    public static void matrixTranspose( My2D arr){           // n is the order of the matrix
+        for (int row = 0; row < arr.my2DArr.length; row++) {
+            for (int col = 0; col < arr.my2DArr.length; col++){
 
-    public void deleteColumn(int colToBeDeleted, My2D arr,  My2D newArr) {
-
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr.length; col++) {
-                while (col != colToBeDeleted) {
-                    arr.my2DArr [row][col] = newArr.my2DArr[row][col];
-                }
+                System.out.print( arr.my2DArr[col][row] + " ");
             }
+            System.out.println();
         }
-         
-    }
-
-    public void deleteElement( My2D arr, My2D newArr , int rowToBeDeleted, int colToBeDeleted) {
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr.length; col++) {
-                while (col != colToBeDeleted && row != rowToBeDeleted) {
-                    arr.my2DArr[row][col] = newArr.my2DArr[row][col];
-                }
-            }
-        }
-    }
-    
-    
-    
-    
-    public void matrixTranspose( My2D arr, My2D newArr , int n ){           // n is the order of the matrix
-        for(int i = 0; i<n; i++){
-            for(int j =0; j<n; j++){
-                arr.my2DArr [i][j] = newArr.my2DArr[j][i];    // switching rows and columns
-            }
         }
     }
 
-    public static void main(String[] args) {
-        My2D test = new My2D(2,2);
-        populate(test);
-        matrixDisplay(test);
-    }
-}
+
+
