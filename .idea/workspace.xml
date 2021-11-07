@@ -97,6 +97,7 @@
     <state width="1493" height="374" key="GridCell.Tab.0.bottom" timestamp="1636297079402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< Updated upstream
     <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636297079402" />
     <state width="1493" height="374" key="GridCell.Tab.0.center" timestamp="1636297079402">
       <screen x="0" y="0" width="1536" height="824" />
@@ -144,5 +145,12 @@
         <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+=======
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1636144892353" />
+    <state x="418" y="33" key="new project wizard" timestamp="1636197441131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1636197441131" />
+>>>>>>> Stashed changes
   </component>
 </project>
